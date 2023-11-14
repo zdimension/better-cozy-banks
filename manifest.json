@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Cozy Banks edit button",
+    "description": "A minimal example of a chrome extension using manifest v3",
+    "version": "0.0.1",
+    "icons": {
+        "16": "logo/logo-16.png",
+        "48": "logo/logo-48.png",
+        "128": "logo/logo-128.png"
+    },
+    "permissions": [],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "content_scripts": [{
+        "js": ["foreground.js"],
+        "matches": ["https://banks.cozy.zdimension.fr/"],
+        "world": "MAIN"
+    }]
+}
