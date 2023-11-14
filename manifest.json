@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "Cozy Banks edit button",
-    "description": "A minimal example of a chrome extension using manifest v3",
+    "name": "Better Cozy Banks",
+    "description": "An extension that adds some very useful minor features to Cozy Banks",
     "version": "0.0.1",
     "icons": {
         "16": "logo/logo-16.png",
